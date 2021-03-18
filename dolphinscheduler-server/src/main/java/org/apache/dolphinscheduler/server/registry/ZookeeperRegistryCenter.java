@@ -74,7 +74,7 @@ public class ZookeeperRegistryCenter implements InitializingBean {
         NODES = zookeeperConfig.getDsRoot() + "/nodes";
         MASTER_PATH = NODES + "/master";
         WORKER_PATH = NODES + "/worker";
-
+        //init register
         init();
     }
 
